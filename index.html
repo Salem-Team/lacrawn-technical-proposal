@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Technical Proposal | LACRAWN × ROOTK Systems</title>
+<meta name="description" content="Technical Proposal for LACRAWN Property Management & Customer Experience Platform by ROOTK Systems." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body data-lang="ar">
+
+<header class="site-header">
+  <div class="wrap inner">
+    <a class="brand" href="#top">
+      <img src="assets/rootk-logo.svg" alt="ROOTK Systems" />
+      <div class="meta">
+        <div class="name">ROOTK SYSTEMS</div>
+        <div class="sub lang-ar">رووتك سيستمز</div>
+        <div class="sub lang-en">Digital Systems Partner</div>
+      </div>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary">
+      <a href="#summary"><span class="lang-ar">الملخص</span><span class="lang-en">Summary</span></a>
+      <a href="#features"><span class="lang-ar">الملحق</span><span class="lang-en">Annex</span></a>
+      <a href="#scope-matrix"><span class="lang-ar">النطاق</span><span class="lang-en">Scope</span></a>
+      <a href="#tech"><span class="lang-ar">التقنيات</span><span class="lang-en">Tech</span></a>
+      <a href="#commercial"><span class="lang-ar">العرض</span><span class="lang-en">Commercial</span></a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" data-set-lang="ar" class="active">AR</button>
+        <button type="button" data-set-lang="en">EN</button>
+      </div>
+      <a class="cta-chip" href="#commercial">
+        <span class="lang-ar">150,000 EGP</span>
+        <span class="lang-en">150,000 EGP</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="mobile-nav" id="mobile-nav">
+    <a href="#summary"><span class="lang-ar">الملخص التنفيذي</span><span class="lang-en">Executive Summary</span></a>
+    <a href="#features"><span class="lang-ar">الملحق الفني الكامل</span><span class="lang-en">Full Technical Annex</span></a>
+    <a href="#scope-matrix"><span class="lang-ar">جدول النطاق</span><span class="lang-en">Scope Matrix</span></a>
+    <a href="#acceptance"><span class="lang-ar">معايير القبول</span><span class="lang-en">Acceptance</span></a>
+    <a href="#tech"><span class="lang-ar">التقنيات والأمان</span><span class="lang-en">Technology & Security</span></a>
+    <a href="#commercial"><span class="lang-ar">السعر والمدة</span><span class="lang-en">Price & Timeline</span></a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-orb" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="hero-top">
+        <span class="pill"><span class="dot"></span> Technical Proposal</span>
+        <span class="pill">29 September 2026</span>
+      </div>
+
+      <div class="hero-copy">
+        <span class="eyebrow">
+          <span class="lang-ar">عرض فني رسمي</span>
+          <span class="lang-en">Official Technical Proposal</span>
+        </span>
+        <h1 class="display">
+          <span class="lang-ar">منصة إدارة العقارات<br/><em>وتجربة العملاء</em></span>
+          <span class="lang-en">Property Management<br/><em>&amp; Customer Experience</em></span>
+        </h1>
+        <p class="lede">
+          <span class="lang-ar">عرض فني من ROOTK Systems لتصميم وتطوير وتشغيل منصة رقمية متكاملة لصالح LACRAWN — مستوحاة وظيفيًا من Emaar One، بهوية أصلية قابلة للتوسع.</span>
+          <span class="lang-en">A formal technical proposal by ROOTK Systems for the design, development, and deployment of a unified digital platform for LACRAWN — functionally inspired by Emaar One, originally branded and built to scale.</span>
+        </p>
+      </div>
+
+      <div class="kpi-strip">
+        <div class="kpi featured">
+          <label>Investment</label>
+          <strong>150,000 EGP</strong>
+          <small>
+            <span class="lang-ar">السعر الشامل للنطاق المعتمد</span>
+            <span class="lang-en">Full agreed scope investment</span>
+          </small>
+        </div>
+        <div class="kpi">
+          <label>Duration</label>
+          <strong>
+            <span class="lang-ar">شهران</span>
+            <span class="lang-en">2 Months</span>
+          </strong>
+          <small>
+            <span class="lang-ar">تطوير وتسليم متوازي المسارات</span>
+            <span class="lang-en">Parallel delivery tracks</span>
+          </small>
+        </div>
+        <div class="kpi">
+          <label>Warranty</label>
+          <strong>90 Days</strong>
+          <small>
+            <span class="lang-ar">ضمان عيوب النطاق المعتمد</span>
+            <span class="lang-en">Defect warranty on approved scope</span>
+          </small>
+        </div>
+      </div>
+
+      <div class="stack-row" aria-label="Technology stack">
+        <span class="stack-chip">React Native</span>
+        <span class="stack-chip">NestJS</span>
+        <span class="stack-chip">Next.js</span>
+        <span class="stack-chip">PostgreSQL</span>
+      </div>
+
+      <div class="hero-meta">
+        <div>
+          <label>Prepared by</label>
+          <strong>ROOTK Systems</strong>
+        </div>
+        <div>
+          <label>Prepared for</label>
+          <strong>LACRAWN</strong>
+        </div>
+        <div>
+          <label>Reference</label>
+          <strong>Emaar One – UAE</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUMMARY -->
+  <section class="section" id="summary">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">01 · Executive Summary</span>
+        <h2 class="display">
+          <span class="lang-ar">منصة واحدة تربط العميل بالعقار والعمليات</span>
+          <span class="lang-en">One platform connecting customers, properties, and operations</span>
+        </h2>
+        <div class="accent"></div>
+        <p class="lede">
+          <span class="lang-ar">الهدف ليس نسخ Emaar One، بل بناء منصة حديثة قابلة للتوسع بهوية LACRAWN، تغطي رحلة العميل من العقار إلى الطلبات والمدفوعات والمستندات وخدمة المجتمع.</span>
+          <span class="lang-en">The goal is not to copy Emaar One, but to build a modern, scalable platform with LACRAWN branding — covering the full customer journey across properties, requests, payments, documents, and community services.</span>
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card reveal">
+          <div class="ico">01</div>
+          <h3>
+            <span class="lang-ar">تجربة عميل موحّدة</span>
+            <span class="lang-en">Unified Customer Experience</span>
+          </h3>
+          <p>
+            <span class="lang-ar">تطبيق موبايل يمكّن الملاك والمستأجرين من إدارة العقارات والوحدات والطلبات والمدفوعات والمستندات من شاشة واحدة.</span>
+            <span class="lang-en">A mobile app enabling owners and tenants to manage properties, units, requests, payments, and documents from one experience.</span>
+          </p>
+        </article>
+        <article class="card reveal">
+          <div class="ico">02</div>
+          <h3>
+            <span class="lang-ar">تشغيل داخلي محكم</span>
+            <span class="lang-en">Operational Control</span>
+          </h3>
+          <p>
+            <span class="lang-ar">لوحة إدارة ويب للموظفين لإدارة العملاء والعقارات والطلبات والمستندات والمدفوعات وسير العمل وSLAs.</span>
+            <span class="lang-en">A web admin portal for staff to manage customers, properties, requests, documents, payments, workflows, and SLAs.</span>
+          </p>
+        </article>
+        <article class="card reveal">
+          <div class="ico">03</div>
+          <h3>
+            <span class="lang-ar">أساس قابل للتوسع</span>
+            <span class="lang-en">Scalable Foundation</span>
+          </h3>
+          <p>
+            <span class="lang-ar">بنية API-first جاهزة للربط مع CRM وبوابات الدفع والإشعارات وخدمات الهوية مستقبلًا دون إعادة تصميم التطبيق.</span>
+            <span class="lang-en">An API-first architecture ready for CRM, payment gateways, notifications, and identity providers — without redesigning the customer app.</span>
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- UNDERSTANDING -->
+  <section class="section alt" id="understanding">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">02 · Understanding</span>
+        <h2 class="display">
+          <span class="lang-ar">فهمنا لمتطلبات LACRAWN</span>
+          <span class="lang-en">Our understanding of LACRAWN’s requirement</span>
+        </h2>
+        <div class="accent"></div>
+        <p class="lede">
+          <span class="lang-ar">بناءً على مناقشة المتطلبات والمرجع الوظيفي لـ Emaar One، يحتاج العميل إلى تطبيق يواجه العملاء مع لوحة تشغيل داخلية.</span>
+          <span class="lang-en">Based on the requirements discussion and Emaar One as a functional reference, LACRAWN needs a customer-facing application with an internal operations portal.</span>
+        </p>
+      </div>
+
+      <div class="grid-2">
+        <article class="card reveal">
+          <div class="num">CUSTOMER APP</div>
+          <h3>
+            <span class="lang-ar">ما يجب أن يستطيعه العميل</span>
+            <span class="lang-en">What customers must be able to do</span>
+          </h3>
+          <ul>
+            <li><span class="lang-ar">امتلاك/إدارة عدة عقارات ووحدات عبر مشاريع متعددة</span><span class="lang-en">Own/manage multiple properties and units across projects</span></li>
+            <li><span class="lang-ar">تقديم ومتابعة Service Requests وNOCs والمستندات</span><span class="lang-en">Submit and track service requests, NOCs, and documents</span></li>
+            <li><span class="lang-ar">الدفع الإلكتروني واستلام المستندات بعد التأكيد</span><span class="lang-en">Pay digitally and receive documents after confirmation</span></li>
+            <li><span class="lang-ar">التواصل مع Call Center واستقبال الإشعارات</span><span class="lang-en">Reach Call Center and receive notifications</span></li>
+            <li><span class="lang-ar">الوصول لخدمات المجتمع والحجوزات والزوار</span><span class="lang-en">Access community services, bookings, and visitor flows</span></li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <div class="num">ADMIN PORTAL</div>
+          <h3>
+            <span class="lang-ar">ما يديره فريق LACRAWN</span>
+            <span class="lang-en">What LACRAWN teams will operate</span>
+          </h3>
+          <ul>
+            <li><span class="lang-ar">العملاء والملاك والمستأجرين والممثلين</span><span class="lang-en">Customers, owners, tenants, and representatives</span></li>
+            <li><span class="lang-ar">المشاريع والمباني والوحدات وعلاقات الملكية</span><span class="lang-en">Projects, buildings, units, and ownership links</span></li>
+            <li><span class="lang-ar">الطلبات والتعيين والحالة وSLA والمرفقات</span><span class="lang-en">Requests, assignment, status, SLA, and attachments</span></li>
+            <li><span class="lang-ar">أنواع المستندات والاعتماد والإصدار</span><span class="lang-en">Document types, approval, and issuance</span></li>
+            <li><span class="lang-ar">المدفوعات والمعاملات والإيصالات</span><span class="lang-en">Payments, transactions, and receipts</span></li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLATFORM -->
+  <section class="section" id="platform">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">03 · Product Vision</span>
+        <h2 class="display">
+          <span class="lang-ar">معمارية المنصة</span>
+          <span class="lang-en">Platform architecture</span>
+        </h2>
+        <div class="accent"></div>
+      </div>
+
+      <div class="arch reveal">
+        <div class="arch-title">
+          <span class="eyebrow" style="color:var(--blue-2)">LACRAWN PLATFORM</span>
+          <h3>
+            <span class="lang-ar">تجربة العميل والتشغيل الداخلي عبر طبقة API آمنة</span>
+            <span class="lang-en">Customer experience and internal ops connected through a secure API layer</span>
+          </h3>
+          <p>
+            <span class="lang-ar">Property-First UX: العقار هو مركز الرحلة — خدمات، طلبات، مدفوعات، ومستندات مرتبطة بالوحدة.</span>
+            <span class="lang-en">Property-First UX: the property is the center of the journey — services, requests, payments, and documents scoped to the unit.</span>
+          </p>
+        </div>
+        <div class="arch-tree">
+          <div class="arch-root">LACRAWN DIGITAL PLATFORM</div>
+          <div class="arch-branches">
+            <div class="arch-branch">
+              <h4>
+                <span class="lang-ar">تطبيق العميل · iOS / Android</span>
+                <span class="lang-en">Customer App · iOS / Android</span>
+              </h4>
+              <div class="tags">
+                <span>Properties</span>
+                <span>Requests</span>
+                <span>Documents</span>
+                <span>Payments</span>
+                <span>Community</span>
+                <span>Support</span>
+              </div>
+            </div>
+            <div class="arch-branch">
+              <h4>
+                <span class="lang-ar">لوحة الإدارة · Web</span>
+                <span class="lang-en">Admin Portal · Web</span>
+              </h4>
+              <div class="tags">
+                <span>Customers</span>
+                <span>Workflow</span>
+                <span>Catalog</span>
+                <span>Payments</span>
+                <span>Documents</span>
+                <span>Audit</span>
+              </div>
+            </div>
+          </div>
+          <div class="arch-base">
+            <div>Secure API · NestJS</div>
+            <div>PostgreSQL</div>
+            <div>CRM / Integrations</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES / TECHNICAL ANNEX -->
+  <section class="section alt" id="features">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">04 · Technical Annex / Scope of Work</span>
+        <h2 class="display">
+          <span class="lang-ar">الملحق الفني — كل الوظائف بوضوح</span>
+          <span class="lang-en">Technical Annex — every feature, clearly scoped</span>
+        </h2>
+        <div class="accent"></div>
+        <p class="lede">
+          <span class="lang-ar">نطاق وظيفي مفصّل يقلل الخلاف لاحقًا: ما داخل المشروع، وما مرحلي حسب الاتفاق، وما تكامل/إضافي يتطلب Change Request. المرجع الوظيفي Emaar One (+40 ميزة حية) — بدون نسخ الهوية أو الكود.</span>
+          <span class="lang-en">A detailed functional scope that reduces later disputes: what is in base scope, what is phased by agreement, and what is integration/additional via Change Request. Functional reference: Emaar One (40+ live features) — without copying branding or code.</span>
+        </p>
+      </div>
+
+      <div class="scope-legend reveal">
+        <span class="scope-pill base"><span class="mark"></span>
+          <span class="lang-ar">أساسي · داخل العرض</span><span class="lang-en">Base · Included</span>
+        </span>
+        <span class="scope-pill phase"><span class="mark"></span>
+          <span class="lang-ar">مرحلي · حسب الاتفاق</span><span class="lang-en">Phased · By agreement</span>
+        </span>
+        <span class="scope-pill int"><span class="mark"></span>
+          <span class="lang-ar">تكامل · حسب الـAPI</span><span class="lang-en">Integration-dependent</span>
+        </span>
+        <span class="scope-pill extra"><span class="mark"></span>
+          <span class="lang-ar">إضافي · Change Request</span><span class="lang-en">Additional · Change Request</span>
+        </span>
+      </div>
+
+      <div class="feature-filters reveal" role="tablist" aria-label="Feature groups">
+        <button type="button" class="active" data-filter="all">
+          <span class="lang-ar">الكل</span><span class="lang-en">All</span>
+        </button>
+        <button type="button" data-filter="core">
+          <span class="lang-ar">أساسي</span><span class="lang-en">Core</span>
+        </button>
+        <button type="button" data-filter="ops">
+          <span class="lang-ar">طلبات ومدفوعات</span><span class="lang-en">Requests &amp; Pay</span>
+        </button>
+        <button type="button" data-filter="community">
+          <span class="lang-ar">مجتمع</span><span class="lang-en">Community</span>
+        </button>
+        <button type="button" data-filter="admin">
+          <span class="lang-ar">إدارة وتكامل</span><span class="lang-en">Admin &amp; API</span>
+        </button>
+      </div>
+
+      <div class="modules" id="annex-modules">
+
+        <!-- 01 Users & Auth -->
+        <details class="module reveal" data-group="core" open>
+          <summary>
+            <span class="left"><span class="badge">01</span>
+              <span class="lang-ar">المستخدمون · الحساب · Dashboard</span>
+              <span class="lang-en">Users · Account · Dashboard</span>
+            </span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </summary>
+          <div class="body">
+            <p class="lang-ar">أنواع المستخدمين: مالك، مستأجر، وممثل مفوّض — كلٌّ حسب صلاحياته. الحساب يشمل تسجيل الدخول، OTP، الاستعادة، الجلسة، والملف الشخصي.</p>
+            <p class="lang-en">User types: Owner, Tenant, and Authorized Representative — each with role-based permissions. Account covers login, OTP, recovery, session, and profile.</p>
+            <div class="feat-grid">
+              <div class="feat-item">
+                <div class="top"><h4><span class="lang-ar">أنواع المستخدمين</span><span class="lang-en">User Types</span></h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Property Owner</li>
+                  <li>Tenant <span class="lang-ar">(حسب الصلاحيات)</span><span class="lang-en">(permission-based)</span></li>
+                  <li>Authorized Representative</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4><span class="lang-ar">تسجيل الدخول والحساب</span><span class="lang-en">Login &amp; Account</span></h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Login · Email / Username · Password</li>
+                  <li>Forgot Password · OTP · Verification</li>
+                  <li>Session · Logout · Profile Management</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4><span class="lang-ar">ملف العميل والتفضيلات</span><span class="lang-en">Profile &amp; Preferences</span></h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Name · Email · Mobile · Address</li>
+                  <li>Preferred Communication Channel</li>
+                  <li>Notification Preferences · Password Change</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Dashboard</h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li><span class="lang-ar">عقارات · مشاريع · وحدات</span><span class="lang-en">Properties · Projects · Units</span></li>
+                  <li><span class="lang-ar">طلبات مفتوحة/مكتملة · مدفوعات مستحقة</span><span class="lang-en">Open/completed requests · Outstanding payments</span></li>
+                  <li><span class="lang-ar">مستندات · إشعارات · خدمات سريعة · Call Center</span><span class="lang-en">Documents · Notifications · Quick services · Call Center</span></li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Biometric Auth</h4><span class="tag-scope extra">Extra</span></div>
+                <p class="lang-ar">بصمة/وجه كمرحلة تكامل لاحقة باتفاق إضافي.</p>
+                <p class="lang-en">Fingerprint/Face ID as a later integration by additional agreement.</p>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>UAE Pass / IdP</h4><span class="tag-scope extra">Extra</span></div>
+                <p class="lang-ar">جاهزية معمارية فقط. التكامل الكامل اعتماد منفصل خارج النطاق الأساسي.</p>
+                <p class="lang-en">Architecture-ready only. Full integration is a separate certification outside base scope.</p>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- 02 Properties -->
+        <details class="module reveal" data-group="core">
+          <summary>
+            <span class="left"><span class="badge">02</span>
+              <span class="lang-ar">العقارات · المشاريع المتعددة · تفاصيل الوحدة</span>
+              <span class="lang-en">Properties · Multi-project · Unit details</span>
+            </span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </summary>
+          <div class="body">
+            <p class="lang-ar">Requirement أساسي من الاجتماع: المالك قد يمتلك وحدات في أكثر من مشروع. كل خدمة وطلب يرتبط بـ Customer → Project → Unit.</p>
+            <p class="lang-en">Core meeting requirement: an owner may hold units across multiple projects. Every service/request is scoped to Customer → Project → Unit.</p>
+            <div class="tree-box">
+Customer<br/>
+└── My Properties<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;├── <strong>Project A</strong> → Unit 101 · Unit 102<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;└── <strong>Project B</strong> → Unit 205<br/><br/>
+Flow: Select Project → Select Unit → Open Services / Create Request
+            </div>
+            <div class="feat-grid">
+              <div class="feat-item">
+                <div class="top"><h4>My Properties</h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Multiple Projects · Buildings · Units</li>
+                  <li><span class="lang-ar">خدمات/طلبات/مستندات/مدفوعات لكل وحدة</span><span class="lang-en">Per-unit services, requests, documents, payments</span></li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Property Details</h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Project · Building · Unit · Type · Status</li>
+                  <li>Ownership · Handover · Payments · Documents · Requests</li>
+                  <li><span class="lang-ar">الحقول النهائية حسب بيانات CRM/Backend</span><span class="lang-en">Final fields depend on CRM/backend data</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- 03 Service Requests -->
+        <details class="module reveal" data-group="ops">
+          <summary>
+            <span class="left"><span class="badge">03</span>
+              <span class="lang-ar">Service Requests · التصنيفات · التتبع · المرفقات</span>
+              <span class="lang-en">Service Requests · Categories · Tracking · Attachments</span>
+            </span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </summary>
+          <div class="body">
+            <p class="lang-ar">مكوّن أساسي: إنشاء طلب مرتبط بوحدة، رقم مرجعي، مرفقات، وتتبع الحالة حتى الإغلاق.</p>
+            <p class="lang-en">Core module: create a unit-scoped request, get a reference number, attach files, and track status through closure.</p>
+            <div class="flow" style="margin-bottom:14px">
+              <span class="step">Submitted</span><span class="arrow">→</span>
+              <span class="step">Received</span><span class="arrow">→</span>
+              <span class="step">Under Review</span><span class="arrow">→</span>
+              <span class="step">Assigned</span><span class="arrow">→</span>
+              <span class="step">In Progress</span><span class="arrow">→</span>
+              <span class="step">Completed</span>
+            </div>
+            <div class="feat-grid">
+              <div class="feat-item">
+                <div class="top"><h4><span class="lang-ar">إنشاء ومتابعة الطلب</span><span class="lang-en">Create &amp; Track</span></h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Project → Unit → Category → Subcategory</li>
+                  <li>Description · Attachments · Submit · Reference No.</li>
+                  <li>Status history · Notifications · Request log</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4><span class="lang-ar">بيانات الطلب</span><span class="lang-en">Request Fields</span></h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Request Number · Customer · Project · Unit</li>
+                  <li>Category · Subcategory · Description · Attachments</li>
+                  <li>Dates · Status · Department · Employee · Comments · Resolution</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4><span class="lang-ar">التصنيفات الأساسية</span><span class="lang-en">Base Categories</span></h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Public Places &amp; Infrastructure</li>
+                  <li>Building Systems &amp; Utilities <span class="ltr">(AC · Electrical · Lighting · Plumbing · Water · Security)</span></li>
+                  <li>Building Fabric &amp; Finishing</li>
+                  <li>Community Living &amp; Facilities</li>
+                  <li>Cleaning &amp; Cleanliness · Landscape</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Attachments</h4><span class="tag-scope base">Base</span></div>
+                <p class="lang-ar">صور · PDF · مستندات مكتبية · صيغ معتمدة — مع تحقق أمني من الرفع.</p>
+                <p class="lang-en">Images · PDF · Office docs · approved formats — with secure upload validation.</p>
+                <p class="lang-ar" style="margin-top:8px!important"><strong>مثال:</strong> Utilities → Plumbing · Unit 101 · “Water leakage” + صورة.</p>
+                <p class="lang-en" style="margin-top:8px!important"><strong>Example:</strong> Utilities → Plumbing · Unit 101 · “Water leakage” + photo.</p>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Call Center</h4><span class="tag-scope base">Base</span></div>
+                <p class="lang-ar">Click → Call. الرقم من إعدادات النظام وليس Hardcoded قدر الإمكان.</p>
+                <p class="lang-en">Click → Call. Number managed via system config, not hard-coded where practical.</p>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4><span class="lang-ar">تعيين وسير العمل</span><span class="lang-en">Assignment &amp; Workflow</span></h4><span class="tag-scope base">Base</span></div>
+                <p class="lang-ar">توجيه تلقائي للإدارة المناسبة (مثال: Plumbing → Maintenance → Technician).</p>
+                <p class="lang-en">Auto-route to the right department (e.g. Plumbing → Maintenance → Technician).</p>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- 04 NOC Docs Payments -->
+        <details class="module reveal" data-group="ops">
+          <summary>
+            <span class="left"><span class="badge">04</span>
+              <span class="lang-ar">NOC · المستندات · المدفوعات · كشف الحساب</span>
+              <span class="lang-en">NOC · Documents · Payments · Statement of Account</span>
+            </span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </summary>
+          <div class="body">
+            <p class="lang-ar">رحلة موحّدة تربط الطلب بالمستندات والدفع والإصدار والتحميل الآمن — عبر التطبيق والبريد وWhatsApp حسب التكامل.</p>
+            <p class="lang-en">A unified journey linking requests, documents, payment, issuance, and secure download — via app, email, and WhatsApp subject to integration.</p>
+            <div class="feat-grid">
+              <div class="feat-item">
+                <div class="top"><h4>Property Services</h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Property Details · Property Requests</li>
+                  <li>NOC · Documents · Ownership-related</li>
+                  <li>Handover-related services (module readiness)</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>NOC Requests</h4><span class="tag-scope base">Base</span></div>
+                <div class="flow" style="margin:4px 0 8px">
+                  <span class="step">Property</span><span class="arrow">→</span>
+                  <span class="step">Type</span><span class="arrow">→</span>
+                  <span class="step">Docs</span><span class="arrow">→</span>
+                  <span class="step">Pay</span><span class="arrow">→</span>
+                  <span class="step">Issue</span><span class="arrow">→</span>
+                  <span class="step">Download</span>
+                </div>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Document Requests</h4><span class="tag-scope base">Base</span></div>
+                <div class="flow" style="margin:4px 0 8px">
+                  <span class="step">Type</span><span class="arrow">→</span>
+                  <span class="step">Fee</span><span class="arrow">→</span>
+                  <span class="step">Pay</span><span class="arrow">→</span>
+                  <span class="step">Process</span><span class="arrow">→</span>
+                  <span class="step">Download</span>
+                </div>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Document Delivery</h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Option A: In-App (My Documents → Download)</li>
+                  <li>Option B: Email</li>
+                  <li>Option C: Both — <span class="lang-ar">حسب سياسة LACRAWN</span><span class="lang-en">per LACRAWN policy</span></li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Payment Flow</h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Payment Link via App · Email · WhatsApp</li>
+                  <li>Gateway redirect · Success / Failed / Cancelled</li>
+                  <li>Reference · Transaction ID · Receipt · Webhook sync</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Statement of Account</h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Account Statement · Payment History</li>
+                  <li>Outstanding · Paid · Upcoming</li>
+                  <li>Transaction Refs · Receipts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- 05 Notifications -->
+        <details class="module reveal" data-group="ops">
+          <summary>
+            <span class="left"><span class="badge">05</span>
+              <span class="lang-ar">الإشعارات · قنوات التواصل · البحث</span>
+              <span class="lang-en">Notifications · Channels · Search</span>
+            </span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </summary>
+          <div class="body">
+            <div class="feat-grid">
+              <div class="feat-item">
+                <div class="top"><h4>Event Notifications</h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Request submitted / status changed / completed</li>
+                  <li>Payment required / successful</li>
+                  <li>Document ready · NOC approved · Announcements</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Channels</h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Push · In-App · Email</li>
+                  <li>WhatsApp <span class="lang-ar">(حسب التكامل)</span><span class="lang-en">(integration-dependent)</span></li>
+                  <li>Phone / Call Center</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Push Notifications</h4><span class="tag-scope base">Base</span></div>
+                <p class="ltr" style="font-size:12.5px;color:var(--mute)">“Request #REQ-1024 updated” · “Payment successful” · “Document available”</p>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Universal Search</h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Properties · Units · Requests · Documents</li>
+                  <li>Services · NOCs · Payments · Facilities</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Arabic &amp; English</h4><span class="tag-scope base">Base</span></div>
+                <p class="lang-ar">واجهة ثنائية اللغة مع RTL وتسميات وتحقق وإشعارات مترجمة.</p>
+                <p class="lang-en">Bilingual UI with RTL, localized labels, validation, and notifications.</p>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>UX Principles</h4><span class="tag-scope base">Base</span></div>
+                <p>Modern · Premium · Simple · Fast · Property-first · Minimal steps</p>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- 06 Community -->
+        <details class="module reveal" data-group="community">
+          <summary>
+            <span class="left"><span class="badge">06</span>
+              <span class="lang-ar">المجتمع · الزوار · المرافق · Home · Handover</span>
+              <span class="lang-en">Community · Visitors · Amenities · Home · Handover</span>
+            </span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </summary>
+          <div class="body">
+            <p class="lang-ar">وظائف مستمدة من مرجع Emaar One. بعضها أساسي (Community + Home Services) وبعضها مرحلي حسب جاهزية التشغيل.</p>
+            <p class="lang-en">Capabilities aligned with Emaar One’s public feature set. Some are base (Community + Home Services); others are phased by operational readiness.</p>
+            <div class="feat-grid">
+              <div class="feat-item">
+                <div class="top"><h4>Community Services</h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Community Assistance · Common-area requests</li>
+                  <li>Facility-related · Maintenance · Announcements</li>
+                  <li>Community NOCs · Status tracking</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Home Services</h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Cleaning · Maintenance · Home Assistance</li>
+                  <li>Lifestyle / Fitness · Approved vendors</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Visitor Management</h4><span class="tag-scope phase">Phase</span></div>
+                <ul class="mini-list">
+                  <li>Name · Mobile · Date · Time</li>
+                  <li>QR Code · Entry status · Visit history</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Community Amenities Booking</h4><span class="tag-scope phase">Phase</span></div>
+                <ul class="mini-list">
+                  <li>Gym · Pool · Clubhouse · Sports · Rooms</li>
+                  <li>Facility → Date → Time → Availability → Confirm</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Digital Handover</h4><span class="tag-scope phase">Phase</span></div>
+                <ul class="mini-list">
+                  <li>Status · Appointment · Required docs</li>
+                  <li>Instructions · Confirmation · Handover documents</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Construction Updates</h4><span class="tag-scope phase">Phase</span></div>
+                <ul class="mini-list">
+                  <li>Progress · Milestones · Expected handover</li>
+                  <li>Announcements · Project media <span class="lang-ar">(حسب بيانات العميل)</span><span class="lang-en">(client data dependent)</span></li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Virtual Customer Service</h4><span class="tag-scope phase">Phase</span></div>
+                <p class="lang-ar">حجز موعد افتراضي مع خدمة العملاء (نمط Had’reen / Happiness Centre).</p>
+                <p class="lang-en">Book a virtual appointment with customer service (Had’reen / Happiness Centre pattern).</p>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>AI / Voice / Smart Home</h4><span class="tag-scope extra">Extra</span></div>
+                <p class="lang-ar">مساعد ذكي، Voice Requests، IoT، Predictive Maintenance — توسّع مستقبلي خارج النطاق الأساسي.</p>
+                <p class="lang-en">AI assistant, voice requests, IoT, predictive maintenance — future expansion outside base scope.</p>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- 07 Admin -->
+        <details class="module reveal" data-group="admin">
+          <summary>
+            <span class="left"><span class="badge">07</span>
+              <span class="lang-ar">Admin Portal · كتالوج الخدمات · Workflow</span>
+              <span class="lang-en">Admin Portal · Service Catalog · Workflow</span>
+            </span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </summary>
+          <div class="body">
+            <p class="lang-ar">لوحة ويب (Next.js) لإدارة التشغيل اليومي دون الحاجة لمطوّر لكل تغيير بسيط في الخدمات.</p>
+            <p class="lang-en">Web portal (Next.js) for day-to-day operations — no developer required for every basic service catalog change.</p>
+            <div class="feat-grid">
+              <div class="feat-item">
+                <div class="top"><h4>Customer Management</h4><span class="tag-scope base">Base</span></div>
+                <p>Customers · Owners · Tenants · Representatives · Profiles · Status · Property links</p>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Property Management</h4><span class="tag-scope base">Base</span></div>
+                <p>Projects · Buildings · Units · Status · Ownership relationships</p>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Request Management</h4><span class="tag-scope base">Base</span></div>
+                <p>All requests · Categories · Assignment · Status · SLA · Attachments · Comments · Resolution</p>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Document &amp; Payment Admin</h4><span class="tag-scope base">Base</span></div>
+                <p>Types · Requests · Upload · Approval · Issuance · Transactions · Receipts</p>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Configurable Service Catalog</h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>Categories · Subcategories · Service Types</li>
+                  <li>Required Fields · Required Documents · Fees</li>
+                  <li>Payment flag · Department · SLA · Workflow</li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Workflow Engine</h4><span class="tag-scope base">Base</span></div>
+                <p class="lang-ar">مثال Plumbing وNOC بمسارات مختلفة قابلة للتهيئة من اللوحة.</p>
+                <p class="lang-en">e.g. Plumbing vs NOC with different configurable paths from the portal.</p>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- 08 Tech Security -->
+        <details class="module reveal" data-group="admin">
+          <summary>
+            <span class="left"><span class="badge">08</span>
+              <span class="lang-ar">API · CRM · الأمان · Audit · المنصات</span>
+              <span class="lang-en">API · CRM · Security · Audit · Platforms</span>
+            </span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </summary>
+          <div class="body">
+            <div class="tree-box" style="margin-top:0">
+Mobile (React Native)  ↔  Secure API (NestJS)  ↔  Next.js Admin<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↕<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PostgreSQL  ·  CRM / ERP  ·  Gateways
+            </div>
+            <div class="feat-grid">
+              <div class="feat-item">
+                <div class="top"><h4>API Domains</h4><span class="tag-scope base">Base</span></div>
+                <p>Auth · Properties · Projects · Units · Requests · Documents · Payments · Notifications · Profile</p>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>CRM Integration</h4><span class="tag-scope int">API</span></div>
+                <p class="lang-ar">Customers · Projects · Units · Ownership · Contracts · Payments · Requests · Documents — حسب الـAPIs المتاحة.</p>
+                <p class="lang-en">Customers · Projects · Units · Ownership · Contracts · Payments · Requests · Documents — per available APIs.</p>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Security</h4><span class="tag-scope base">Base</span></div>
+                <ul class="mini-list">
+                  <li>HTTPS · Token Auth · RBAC</li>
+                  <li>Input / File validation · Rate limiting</li>
+                  <li><span class="lang-ar">عزل صارم بين حسابات العملاء</span><span class="lang-en">Strict isolation between customer accounts</span></li>
+                </ul>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Document Security</h4><span class="tag-scope base">Base</span></div>
+                <p>User → Authorization → Property → Document Permission → Secure Download<br/><span class="lang-ar">بدون Public URLs غير مسيطر عليها</span><span class="lang-en">No uncontrolled public URLs</span></p>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Audit Log</h4><span class="tag-scope base">Base</span></div>
+                <p>Login · Requests · Status · Payments · Uploads/Downloads · NOCs · Admin actions</p>
+              </div>
+              <div class="feat-item">
+                <div class="top"><h4>Platforms</h4><span class="tag-scope base">Base</span></div>
+                <p>iOS · Android · Web Admin · Unified Backend/API</p>
+              </div>
+            </div>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SCOPE MATRIX -->
+  <section class="section" id="scope-matrix">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">05 · Final Scope Summary</span>
+        <h2 class="display">
+          <span class="lang-ar">جدول النطاق النهائي</span>
+          <span class="lang-en">Final scope matrix</span>
+        </h2>
+        <div class="accent"></div>
+        <p class="lede">
+          <span class="lang-ar">مرجع سريع لما هو مشمول في عرض LACRAWN بقيمة 150,000 EGP خلال شهرين.</span>
+          <span class="lang-en">Quick reference for what is included in the LACRAWN offer of 150,000 EGP within two months.</span>
+        </p>
+      </div>
+
+      <div class="scope-table-wrap reveal">
+        <table class="scope-table">
+          <thead>
+            <tr>
+              <th><span class="lang-ar">الوحدة / الميزة</span><span class="lang-en">Module / Feature</span></th>
+              <th><span class="lang-ar">الحالة</span><span class="lang-en">Status</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Customer Login · Profile</td><td class="st ok">✓ Included</td></tr>
+            <tr><td>Multiple Projects · Multiple Units · Property Details</td><td class="st ok">✓ Included</td></tr>
+            <tr><td>Service Requests · Categories · Tracking · Attachments</td><td class="st ok">✓ Included</td></tr>
+            <tr><td>Call Center · Property Services · NOC · Document Requests</td><td class="st ok">✓ Included</td></tr>
+            <tr><td>Online Payment Flow · Payment Status · Document Download</td><td class="st ok">✓ Included</td></tr>
+            <tr><td>Statement of Account · Push / In-App / Email Notifications</td><td class="st ok">✓ Included</td></tr>
+            <tr><td>Community Services · Home Services · Universal Search</td><td class="st ok">✓ Included</td></tr>
+            <tr><td>Admin Portal · Configurable Catalog · Workflow · Audit</td><td class="st ok">✓ Included</td></tr>
+            <tr><td>Arabic / English · iOS · Android · Nest · Next · PostgreSQL</td><td class="st ok">✓ Included</td></tr>
+            <tr><td>WhatsApp Communication</td><td class="st it">Integration</td></tr>
+            <tr><td>CRM / API Integration</td><td class="st it">Per available API</td></tr>
+            <tr><td>Visitor Management · Amenities Booking</td><td class="st ph">Phased / Agreement</td></tr>
+            <tr><td>Digital Handover · Construction Updates · Virtual CS</td><td class="st ph">Phased / Agreement</td></tr>
+            <tr><td>UAE Pass · Government APIs · Hardware / QR Gates</td><td class="st ex">Additional Scope</td></tr>
+            <tr><td>AI / Voice AI · Smart Home · SaaS Multi-tenant</td><td class="st ex">Future / Extra</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACCEPTANCE -->
+  <section class="section alt" id="acceptance">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">06 · Acceptance Criteria</span>
+        <h2 class="display">
+          <span class="lang-ar">معايير قبول النطاق الأساسي</span>
+          <span class="lang-en">Base-scope acceptance criteria</span>
+        </h2>
+        <div class="accent"></div>
+      </div>
+      <div class="accept-grid reveal">
+        <div class="accept-card">
+          <h4>Account</h4>
+          <ul class="mini-list">
+            <li><span class="lang-ar">تسجيل الدخول وإدارة الحساب</span><span class="lang-en">Login and manage account</span></li>
+          </ul>
+        </div>
+        <div class="accept-card">
+          <h4>Properties</h4>
+          <ul class="mini-list">
+            <li><span class="lang-ar">رؤية مشاريع ووحدات متعددة والتعامل معها</span><span class="lang-en">View and operate across multiple projects/units</span></li>
+          </ul>
+        </div>
+        <div class="accept-card">
+          <h4>Requests</h4>
+          <ul class="mini-list">
+            <li><span class="lang-ar">إنشاء طلب بفئة وربط Project/Unit ومتابعة الحالة</span><span class="lang-en">Create categorized request linked to Project/Unit and track status</span></li>
+          </ul>
+        </div>
+        <div class="accept-card">
+          <h4>Communication</h4>
+          <ul class="mini-list">
+            <li><span class="lang-ar">الاتصال بـ Call Center واستقبال الإشعارات</span><span class="lang-en">Call Center access and receive notifications</span></li>
+          </ul>
+        </div>
+        <div class="accept-card">
+          <h4>Documents</h4>
+          <ul class="mini-list">
+            <li><span class="lang-ar">طلب مستند · رسوم · دفع · وصول بعد الاعتماد · Download</span><span class="lang-en">Request · fee · pay · access after approval · download</span></li>
+          </ul>
+        </div>
+        <div class="accept-card">
+          <h4>Payments</h4>
+          <ul class="mini-list">
+            <li><span class="lang-ar">فتح Payment Link وإتمام الدفع وظهور الحالة</span><span class="lang-en">Open payment link, complete payment, see status</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="grid-2" style="margin-top:16px">
+        <div class="banner warn reveal">
+          <h3 class="display" style="font-size:17px;margin-bottom:8px">
+            <span class="lang-ar">خارج النطاق إلا باتفاق إضافي</span>
+            <span class="lang-en">Excluded unless separately agreed</span>
+          </h3>
+          <ul class="mini-list">
+            <li>UAE Pass · Government APIs · Government NOC integrations</li>
+            <li>Payment / WhatsApp / SMS gateway fees</li>
+            <li>Access-control / QR gate hardware · Smart Home / IoT</li>
+            <li>Advanced AI · Voice AI · Biometric IdP verification</li>
+            <li>Unlisted third-party CRM/accounting · SaaS multi-tenant</li>
+          </ul>
+        </div>
+        <div class="banner soft reveal">
+          <h3 class="display" style="font-size:17px;margin-bottom:8px">
+            <span class="lang-ar">مسؤوليات LACRAWN</span>
+            <span class="lang-en">LACRAWN responsibilities</span>
+          </h3>
+          <ul class="mini-list">
+            <li><span class="lang-ar">بيانات المشاريع/الوحدات/العملاء وأنواع الطلبات والرسوم</span><span class="lang-en">Projects/units/customers data, request types, and fees</span></li>
+            <li>Payment Gateway · Call Center · Email · Store accounts</li>
+            <li>CRM/API access · Legal content · Third-party credentials</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="banner navy reveal" style="margin-top:16px">
+        <h3 class="display" style="font-size:18px;margin-bottom:8px">
+          <span class="lang-ar">المرجع الوظيفي ≠ نسخة مطابقة</span>
+          <span class="lang-en">Functional reference ≠ identical clone</span>
+        </h3>
+        <p>
+          <span class="lang-ar">Emaar One مرجع لـ Business Flows وUX Patterns فقط. المنتج النهائي مستقل بهوية LACRAWN وتصميم ROOTK وBackend وDatabase خاصة — دون نسخ Brand Assets أو Source Code أو APIs خاصة بـEmaar.</span>
+          <span class="lang-en">Emaar One is a reference for business flows and UX patterns only. The final product is independent with LACRAWN branding, ROOTK design, and its own backend/database — without copying Emaar brand assets, source code, or private APIs.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADMIN short bridge kept for nav -->
+  <section class="section" id="admin">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">07 · Why ROOTK</span>
+        <h2 class="display">
+          <span class="lang-ar">ما الذي نقدّمه بشكل مميز؟</span>
+          <span class="lang-en">What ROOTK does differently</span>
+        </h2>
+        <div class="accent"></div>
+      </div>
+      <div class="grid-3">
+        <article class="card reveal">
+          <div class="ico">01</div>
+          <h3>Property-First</h3>
+          <p>
+            <span class="lang-ar">العقار مركز الرحلة: My Property → Services → Request بدل قوائم معقّدة.</span>
+            <span class="lang-en">Property is the journey center: My Property → Services → Request instead of complex menus.</span>
+          </p>
+        </article>
+        <article class="card reveal">
+          <div class="ico">02</div>
+          <h3>Configurable Engine</h3>
+          <p>
+            <span class="lang-ar">كتالوج وWorkflows من الـAdmin دون Hard-coding لكل خدمة.</span>
+            <span class="lang-en">Catalog and workflows from Admin — without hard-coding every service.</span>
+          </p>
+        </article>
+        <article class="card reveal">
+          <div class="ico">03</div>
+          <h3>Unified Journey</h3>
+          <p>
+            <span class="lang-ar">NOC → Documents → Payment → Approval → Download في مسار واحد.</span>
+            <span class="lang-en">NOC → Documents → Payment → Approval → Download in one connected path.</span>
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECH -->
+  <section class="section alt" id="tech">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">08 · Technology Stack</span>
+        <h2 class="display">
+          <span class="lang-ar">التقنيات والأمان</span>
+          <span class="lang-en">Technology &amp; security</span>
+        </h2>
+        <div class="accent"></div>
+      </div>
+
+      <div class="tech-grid reveal" style="margin-bottom:16px">
+        <div class="tech-item">
+          <div class="label">Mobile</div>
+          <strong>React Native</strong>
+          <span>
+            <span class="lang-ar">تطبيق واحد لـ iOS و Android</span>
+            <span class="lang-en">Single codebase for iOS &amp; Android</span>
+          </span>
+        </div>
+        <div class="tech-item">
+          <div class="label">Backend API</div>
+          <strong>NestJS</strong>
+          <span>
+            <span class="lang-ar">طبقة API آمنة وقابلة للتوسع</span>
+            <span class="lang-en">Secure, scalable API layer</span>
+          </span>
+        </div>
+        <div class="tech-item">
+          <div class="label">Admin Web</div>
+          <strong>Next.js</strong>
+          <span>
+            <span class="lang-ar">لوحة إدارة ويب حديثة</span>
+            <span class="lang-en">Modern web administration portal</span>
+          </span>
+        </div>
+        <div class="tech-item">
+          <div class="label">Database</div>
+          <strong>PostgreSQL</strong>
+          <span>
+            <span class="lang-ar">قاعدة بيانات علائقية موثوقة</span>
+            <span class="lang-en">Reliable relational data foundation</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="grid-3">
+        <article class="card reveal">
+          <div class="num">SECURITY</div>
+          <h3>
+            <span class="lang-ar">أمان أساسي في المعمارية</span>
+            <span class="lang-en">Security by design</span>
+          </h3>
+          <ul>
+            <li>HTTPS / TLS</li>
+            <li>Token Auth + RBAC</li>
+            <li>Input &amp; File Validation</li>
+            <li>Rate Limiting · Audit Logs</li>
+            <li>
+              <span class="lang-ar">عزل بيانات العملاء</span>
+              <span class="lang-en">Customer data isolation</span>
+            </li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <div class="num">DOCUMENTS</div>
+          <h3>
+            <span class="lang-ar">حماية المستندات</span>
+            <span class="lang-en">Document protection</span>
+          </h3>
+          <ul>
+            <li>
+              <span class="lang-ar">لا روابط عامة غير مسيطرة</span>
+              <span class="lang-en">No uncontrolled public URLs</span>
+            </li>
+            <li>Auth → Permission → Download</li>
+            <li>Contracts · NOCs · Financials</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <div class="num">QA</div>
+          <h3>
+            <span class="lang-ar">ضمان الجودة</span>
+            <span class="lang-en">Quality assurance</span>
+          </h3>
+          <ul>
+            <li>Functional · API · Integration</li>
+            <li>Security · Device Testing</li>
+            <li>UAT + Production Validation</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="section" id="timeline">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">09 · Delivery</span>
+        <h2 class="display">
+          <span class="lang-ar">منهجية التنفيذ خلال شهرين</span>
+          <span class="lang-en">Two-month delivery methodology</span>
+        </h2>
+        <div class="accent"></div>
+        <p class="lede">
+          <span class="lang-ar">مسارات متوازية لتسريع التسليم، مع افتراض اعتمادات العميل وتوفر الـAPIs والبيانات والاعتمادات في الوقت المناسب.</span>
+          <span class="lang-en">Parallel tracks to accelerate delivery, assuming timely client approvals, API access, data, and third-party credentials.</span>
+        </p>
+      </div>
+
+      <div class="grid-2">
+        <div class="timeline reveal">
+          <div class="tl-item"><div class="tl-dot">01</div><div class="tl-body"><h4>
+            <span class="lang-ar">اكتشاف واعتماد المتطلبات</span><span class="lang-en">Discovery &amp; Final Requirements</span>
+          </h4><p>
+            <span class="lang-ar">تثبيت النطاق والبيانات وسير العمل.</span><span class="lang-en">Lock scope, data model, and workflows.</span>
+          </p></div></div>
+          <div class="tl-item"><div class="tl-dot">02</div><div class="tl-body"><h4>
+            <span class="lang-ar">تصميم UX/UI</span><span class="lang-en">UX / UI Design</span>
+          </h4><p>
+            <span class="lang-ar">هوية LACRAWN وتجربة Property-First.</span><span class="lang-en">LACRAWN identity and property-first flows.</span>
+          </p></div></div>
+          <div class="tl-item"><div class="tl-dot">03</div><div class="tl-body"><h4>
+            <span class="lang-ar">Backend وقاعدة البيانات</span><span class="lang-en">Backend &amp; Database</span>
+          </h4><p>NestJS · PostgreSQL · Secure APIs</p></div></div>
+          <div class="tl-item"><div class="tl-dot">04</div><div class="tl-body"><h4>
+            <span class="lang-ar">تطوير الموبايل</span><span class="lang-en">Mobile Development</span>
+          </h4><p>React Native · iOS · Android</p></div></div>
+          <div class="tl-item"><div class="tl-dot">05</div><div class="tl-body"><h4>
+            <span class="lang-ar">لوحة الإدارة</span><span class="lang-en">Admin Portal</span>
+          </h4><p>Next.js · Catalog · Workflows</p></div></div>
+        </div>
+        <div class="timeline reveal">
+          <div class="tl-item"><div class="tl-dot">06</div><div class="tl-body"><h4>
+            <span class="lang-ar">التكاملات</span><span class="lang-en">Integrations</span>
+          </h4><p>
+            <span class="lang-ar">CRM · الدفع · الإشعارات حسب التوفر</span><span class="lang-en">CRM, payments, notifications as available</span>
+          </p></div></div>
+          <div class="tl-item"><div class="tl-dot">07</div><div class="tl-body"><h4>QA</h4><p>
+            <span class="lang-ar">اختبارات وظيفية وأمنية وأجهزة</span><span class="lang-en">Functional, security, and device testing</span>
+          </p></div></div>
+          <div class="tl-item"><div class="tl-dot">08</div><div class="tl-body"><h4>UAT</h4><p>
+            <span class="lang-ar">قبول المستخدم من فريق LACRAWN</span><span class="lang-en">User acceptance with LACRAWN teams</span>
+          </p></div></div>
+          <div class="tl-item"><div class="tl-dot">09</div><div class="tl-body"><h4>
+            <span class="lang-ar">النشر على الإنتاج</span><span class="lang-en">Production Deployment</span>
+          </h4><p>
+            <span class="lang-ar">تهيئة الإنتاج واستعداد المتاجر</span><span class="lang-en">Production setup and store readiness</span>
+          </p></div></div>
+          <div class="tl-item"><div class="tl-dot">★</div><div class="tl-body"><h4>
+            <span class="lang-ar">التسليم خلال شهرين</span><span class="lang-en">Delivery within 2 months</span>
+          </h4><p>
+            <span class="lang-ar">مع دعم UAT ونشر الإنتاج</span><span class="lang-en">Including UAT support and go-live</span>
+          </p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMERCIAL -->
+  <section class="section alt" id="commercial">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">10 · Commercial Terms</span>
+        <h2 class="display">
+          <span class="lang-ar">العرض التجاري</span>
+          <span class="lang-en">Commercial offer</span>
+        </h2>
+        <div class="accent"></div>
+      </div>
+
+      <div class="commercial">
+        <div class="price-card reveal">
+          <div class="tag">Fixed Scope Offer</div>
+          <div class="amount">150,000 <small>EGP</small></div>
+          <p class="desc">
+            <span class="lang-ar">استثمار ثابت للنطاق الفني المعتمد في هذا العرض — تطبيقات الموبايل، لوحة الإدارة، الـBackend، وقاعدة البيانات خلال شهرين عمل.</span>
+            <span class="lang-en">Fixed investment for the approved technical scope in this proposal — mobile apps, admin portal, backend, and database within two months of work.</span>
+          </p>
+          <div class="facts">
+            <div>
+              <label>Duration</label>
+              <strong>
+                <span class="lang-ar">شهران عمل</span>
+                <span class="lang-en">2 Months</span>
+              </strong>
+            </div>
+            <div>
+              <label>Warranty</label>
+              <strong>90 Days</strong>
+            </div>
+            <div>
+              <label>Stack</label>
+              <strong class="ltr">RN · Nest · Next · PG</strong>
+            </div>
+            <div>
+              <label>Languages</label>
+              <strong>AR + EN</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-stack">
+          <article class="card reveal">
+            <h3>
+              <span class="lang-ar">المخرجات</span>
+              <span class="lang-en">Deliverables</span>
+            </h3>
+            <ul>
+              <li>iOS App · Android App</li>
+              <li>
+                <span class="lang-ar">Admin Portal (Next.js)</span>
+                <span class="lang-en">Admin Portal (Next.js)</span>
+              </li>
+              <li>
+                <span class="lang-ar">Backend / API (NestJS)</span>
+                <span class="lang-en">Backend / API (NestJS)</span>
+              </li>
+              <li>PostgreSQL · Docs · QA · UAT</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>
+              <span class="lang-ar">مسؤوليات العميل</span>
+              <span class="lang-en">Client responsibilities</span>
+            </h3>
+            <ul>
+              <li>
+                <span class="lang-ar">البيانات، الـAPIs، وبيانات الاعتماد</span>
+                <span class="lang-en">Data, APIs, and credentials</span>
+              </li>
+              <li>
+                <span class="lang-ar">بوابة الدفع وحسابات المتاجر</span>
+                <span class="lang-en">Payment gateway &amp; store accounts</span>
+              </li>
+              <li>
+                <span class="lang-ar">الرسوم، أنواع NOC، وسير العمل</span>
+                <span class="lang-en">Fees, NOC types, and workflows</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+      <div class="grid-2" style="margin-top:16px">
+        <div class="banner warn reveal">
+          <h3 class="display" style="font-size:17px;margin-bottom:8px">
+            <span class="lang-ar">خارج النطاق</span>
+            <span class="lang-en">Out of scope</span>
+          </h3>
+          <ul class="checklist" style="margin-top:0">
+            <li style="color:#9a3412"><span style="color:#c2410c;font-weight:800">×</span>
+              <span class="lang-ar">تكاملات حكومية / UAE Pass كاعتماد كامل</span>
+              <span class="lang-en">Government integrations / full UAE Pass certification</span>
+            </li>
+            <li style="color:#9a3412"><span style="color:#c2410c;font-weight:800">×</span>
+              <span class="lang-ar">أجهزة بوابات وSmart Home ورسوم الطرف الثالث</span>
+              <span class="lang-en">Gate hardware, smart-home, and third-party subscription fees</span>
+            </li>
+            <li style="color:#9a3412"><span style="color:#c2410c;font-weight:800">×</span>
+              <span class="lang-ar">SaaS / White-Label متعدد المستأجرين</span>
+              <span class="lang-en">Multi-tenant SaaS / white-label layer</span>
+            </li>
+            <li style="color:#9a3412"><span style="color:#c2410c;font-weight:800">×</span>
+              <span class="lang-ar">أي ميزة جديدة خارج النطاق المعتمد = Change Request</span>
+              <span class="lang-en">Any feature outside approved scope = Change Request</span>
+            </li>
+          </ul>
+        </div>
+        <div class="banner ok reveal">
+          <h3 class="display" style="font-size:17px;margin-bottom:8px">
+            <span class="lang-ar">الضمان وقبول التسليم</span>
+            <span class="lang-en">Warranty &amp; acceptance</span>
+          </h3>
+          <p>
+            <span class="lang-ar">90 يومًا لإصلاح عيوب النطاق المعتمد. لا يشمل الميزات الجديدة أو أعطال الطرف الثالث. القبول عند تنفيذ النطاق واجتياز QA/UAT — العيوب التجميلية البسيطة لا تمنع قبول التسليم.</span>
+            <span class="lang-en">90 days covering defects in the approved implementation. Excludes new features and third-party outages. Acceptance when approved scope passes QA/UAT — minor cosmetic issues do not block delivery acceptance.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSING -->
+  <section class="section" id="closing">
+    <div class="wrap">
+      <div class="banner navy reveal">
+        <span class="eyebrow" style="color:var(--blue-2)">ROOTK Value</span>
+        <h3 class="display" style="font-size:clamp(22px,4vw,30px);margin:10px 0 12px">
+          <span class="lang-ar">عميل أولًا · تحكم تشغيلي · معمارية قابلة للتوسع</span>
+          <span class="lang-en">Customer first · Operational control · Scalable architecture</span>
+        </h3>
+        <p>
+          <span class="lang-ar">المنصة المقترحة تمنح LACRAWN طبقة تجربة رقمية كاملة تربط العملاء والعقارات والعمليات والمدفوعات والمستندات والخدمات المجتمعية عبر منصة آمنة واحدة — بتقنيات React Native و NestJS و Next.js و PostgreSQL خلال شهرين، باستثمار 150,000 جنيه مصري.</span>
+          <span class="lang-en">The proposed platform gives LACRAWN a complete digital experience layer connecting customers, properties, operations, payments, documents, and community services through one secure platform — built with React Native, NestJS, Next.js, and PostgreSQL in two months for 150,000 EGP.</span>
+        </p>
+      </div>
+
+      <div class="section-head reveal" style="margin-top:40px;margin-bottom:16px">
+        <span class="eyebrow">References</span>
+        <h2 class="display" style="font-size:22px">
+          <span class="lang-ar">مصادر المرجع الوظيفي</span>
+          <span class="lang-en">Functional reference sources</span>
+        </h2>
+      </div>
+      <div class="sources reveal">
+        <a href="https://www.emaar.com/" target="_blank" rel="noopener">
+          <span>Emaar One – Official materials / FAQ</span>
+          <span class="ltr">↗</span>
+        </a>
+        <a href="https://www.emaar.com/" target="_blank" rel="noopener">
+          <span>Emaar Development Integrated Annual Report 2025</span>
+          <span class="ltr">↗</span>
+        </a>
+        <a href="https://www.emaar.com/" target="_blank" rel="noopener">
+          <span>Emaar Properties Integrated Report 2024</span>
+          <span class="ltr">↗</span>
+        </a>
+        <a href="https://www.emaar.com/" target="_blank" rel="noopener">
+          <span>Emaar Privacy Policy – Emaar One Services</span>
+          <span class="ltr">↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap inner">
+    <div class="top">
+      <div class="brand">
+        <img src="assets/rootk-logo.svg" alt="" />
+        <div class="meta">
+          <div class="name">ROOTK SYSTEMS</div>
+          <div class="sub">
+            <span class="lang-ar">عرض فني · LACRAWN · سبتمبر 2026</span>
+            <span class="lang-en">Technical Proposal · LACRAWN · Sep 2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="stack-row" style="margin:0">
+        <span class="stack-chip">React Native</span>
+        <span class="stack-chip">NestJS</span>
+        <span class="stack-chip">Next.js</span>
+        <span class="stack-chip">PostgreSQL</span>
+      </div>
+    </div>
+    <div class="copy">
+      <span>© 2026 ROOTK Systems · Confidential</span>
+      <span class="ltr">Prepared for LACRAWN · 150,000 EGP · 2 Months</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  const body = document.body;
+  const html = document.documentElement;
+  const buttons = document.querySelectorAll('[data-set-lang]');
+  const toggle = document.querySelector('.nav-toggle');
+  const mobileNav = document.getElementById('mobile-nav');
+
+  function setLang(lang) {
+    body.dataset.lang = lang;
+    html.lang = lang;
+    html.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    buttons.forEach((btn) => {
+      btn.classList.toggle('active', btn.dataset.setLang === lang);
+    });
+    try { localStorage.setItem('lacrawn-proposal-lang', lang); } catch (_) {}
+  }
+
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => setLang(btn.dataset.setLang));
+  });
+
+  try {
+    const saved = localStorage.getItem('lacrawn-proposal-lang');
+    if (saved === 'en' || saved === 'ar') setLang(saved);
+  } catch (_) {}
+
+  function closeNav() {
+    mobileNav.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }
+
+  toggle.addEventListener('click', () => {
+    const open = mobileNav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(open));
+  });
+
+  mobileNav.querySelectorAll('a').forEach((a) => {
+    a.addEventListener('click', closeNav);
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!mobileNav.classList.contains('open')) return;
+    if (e.target.closest('.site-header')) return;
+    closeNav();
+  });
+
+  const io = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) entry.target.classList.add('in');
+      });
+    },
+    { threshold: 0.12, rootMargin: '0px 0px -8% 0px' }
+  );
+  document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+
+  const filters = document.querySelectorAll('.feature-filters button');
+  const modules = document.querySelectorAll('#annex-modules .module');
+  filters.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      filters.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      const key = btn.dataset.filter;
+      modules.forEach((mod) => {
+        const group = mod.dataset.group;
+        const show = key === 'all' || group === key;
+        mod.classList.toggle('is-hidden', !show);
+        if (show && key !== 'all') mod.open = true;
+      });
+    });
+  });
+})();
+</script>
+</body>
+</html>

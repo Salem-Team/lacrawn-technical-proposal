@@ -1,0 +1,7 @@
+# lacrawn-technical-proposal
+.DS_Store
+.cursor/
+node_modules/
+*.pdf
+qa-*.png
+preview-*.png
