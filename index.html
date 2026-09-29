@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,7 +7,7 @@
 <meta name="description" content="Technical Proposal for Crown Property Management & Customer Experience Platform by ROOTK Systems." />
 <link rel="stylesheet" href="styles.css" />
 </head>
-<body data-lang="en">
+<body data-lang="ar">
 
 <header class="site-header">
   <div class="wrap inner">
@@ -30,8 +30,8 @@
 
     <div class="header-actions">
       <div class="lang-switch" role="group" aria-label="Language">
-        <button type="button" data-set-lang="ar">AR</button>
-        <button type="button" data-set-lang="en" class="active">EN</button>
+        <button type="button" data-set-lang="ar" class="active">AR</button>
+        <button type="button" data-set-lang="en">EN</button>
       </div>
       <a class="cta-chip" href="#commercial">
         <span class="lang-ar">150,000 EGP</span>
@@ -1306,7 +1306,7 @@ Mobile (React Native)  ↔  Secure API (NestJS)  ↔  Next.js Admin<br/>
     buttons.forEach((btn) => {
       btn.classList.toggle('active', btn.dataset.setLang === lang);
     });
-    try { localStorage.setItem('crown-proposal-lang-v2', lang); } catch (_) {}
+    try { localStorage.setItem('crown-proposal-lang-v3', lang); } catch (_) {}
   }
 
   buttons.forEach((btn) => {
@@ -1314,11 +1314,11 @@ Mobile (React Native)  ↔  Secure API (NestJS)  ↔  Next.js Admin<br/>
   });
 
   try {
-    const saved = localStorage.getItem('crown-proposal-lang-v2');
+    const saved = localStorage.getItem('crown-proposal-lang-v3');
     if (saved === 'en' || saved === 'ar') setLang(saved);
-    else setLang('en');
+    else setLang('ar');
   } catch (_) {
-    setLang('en');
+    setLang('ar');
   }
 
   function closeNav() {
