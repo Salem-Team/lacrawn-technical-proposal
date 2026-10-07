@@ -25,6 +25,7 @@
       <a href="#features"><span class="lang-ar">الملحق</span><span class="lang-en">Annex</span></a>
       <a href="#scope-matrix"><span class="lang-ar">النطاق</span><span class="lang-en">Scope</span></a>
       <a href="#tech"><span class="lang-ar">التقنيات</span><span class="lang-en">Tech</span></a>
+      <a href="#timeline"><span class="lang-ar">الخطة</span><span class="lang-en">Plan</span></a>
       <a href="#commercial"><span class="lang-ar">العرض</span><span class="lang-en">Commercial</span></a>
     </nav>
 
@@ -49,6 +50,7 @@
     <a href="#scope-matrix"><span class="lang-ar">جدول النطاق</span><span class="lang-en">Scope Matrix</span></a>
     <a href="#acceptance"><span class="lang-ar">معايير القبول</span><span class="lang-en">Acceptance</span></a>
     <a href="#tech"><span class="lang-ar">التقنيات والأمان</span><span class="lang-en">Technology & Security</span></a>
+    <a href="#timeline"><span class="lang-ar">خطة التسليم</span><span class="lang-en">Delivery Plan</span></a>
     <a href="#commercial"><span class="lang-ar">السعر والمدة</span><span class="lang-en">Price & Timeline</span></a>
   </nav>
 </header>
@@ -1068,58 +1070,325 @@ Mobile (React Native)  ↔  Secure API (NestJS)  ↔  Next.js Admin<br/>
   <section class="section" id="timeline">
     <div class="wrap">
       <div class="section-head reveal">
-        <span class="eyebrow">09 · Delivery</span>
+        <span class="eyebrow">09 · Delivery Plan</span>
         <h2 class="display">
-          <span class="lang-ar">منهجية التنفيذ خلال شهرين</span>
-          <span class="lang-en">Two-month delivery methodology</span>
+          <span class="lang-ar">تسليم موديول بموديول خلال ٨ أسابيع</span>
+          <span class="lang-en">Module-by-module delivery in 8 weeks</span>
         </h2>
         <div class="accent"></div>
       </div>
 
-      <div class="grid-2">
-        <div class="timeline reveal">
-          <div class="tl-item"><div class="tl-dot">01</div><div class="tl-body"><h4>
-            <span class="lang-ar">اكتشاف واعتماد المتطلبات</span><span class="lang-en">Discovery &amp; Final Requirements</span>
-          </h4><p>
-            <span class="lang-ar">تثبيت النطاق والبيانات وسير العمل.</span><span class="lang-en">Lock scope, data model, and workflows.</span>
-          </p></div></div>
-          <div class="tl-item"><div class="tl-dot">02</div><div class="tl-body"><h4>
-            <span class="lang-ar">تصميم UX/UI</span><span class="lang-en">UX / UI Design</span>
-          </h4><p>
-            <span class="lang-ar">هوية Crown وتجربة Property-First.</span><span class="lang-en">Crown identity and property-first flows.</span>
-          </p></div></div>
-          <div class="tl-item"><div class="tl-dot">03</div><div class="tl-body"><h4>
-            <span class="lang-ar">Backend وقاعدة البيانات</span><span class="lang-en">Backend &amp; Database</span>
-          </h4><p>NestJS · PostgreSQL · Secure APIs</p></div></div>
-          <div class="tl-item"><div class="tl-dot">04</div><div class="tl-body"><h4>
-            <span class="lang-ar">تطوير الموبايل</span><span class="lang-en">Mobile Development</span>
-          </h4><p>React Native · iOS · Android</p></div></div>
-          <div class="tl-item"><div class="tl-dot">05</div><div class="tl-body"><h4>
-            <span class="lang-ar">لوحة الإدارة</span><span class="lang-en">Admin Portal</span>
-          </h4><p>Next.js · Catalog · Workflows</p></div></div>
-        </div>
-        <div class="timeline reveal">
-          <div class="tl-item"><div class="tl-dot">06</div><div class="tl-body"><h4>
-            <span class="lang-ar">التكاملات</span><span class="lang-en">Integrations</span>
-          </h4><p>
-            <span class="lang-ar">CRM · الدفع · الإشعارات حسب التوفر</span><span class="lang-en">CRM, payments, notifications as available</span>
-          </p></div></div>
-          <div class="tl-item"><div class="tl-dot">07</div><div class="tl-body"><h4>QA</h4><p>
-            <span class="lang-ar">اختبارات وظيفية وأمنية وأجهزة</span><span class="lang-en">Functional, security, and device testing</span>
-          </p></div></div>
-          <div class="tl-item"><div class="tl-dot">08</div><div class="tl-body"><h4>UAT</h4><p>
-            <span class="lang-ar">قبول المستخدم من فريق Crown</span><span class="lang-en">User acceptance with Crown teams</span>
-          </p></div></div>
-          <div class="tl-item"><div class="tl-dot">09</div><div class="tl-body"><h4>
-            <span class="lang-ar">النشر على الإنتاج</span><span class="lang-en">Production Deployment</span>
-          </h4><p>
-            <span class="lang-ar">تهيئة الإنتاج واستعداد المتاجر</span><span class="lang-en">Production setup and store readiness</span>
-          </p></div></div>
-          <div class="tl-item"><div class="tl-dot">★</div><div class="tl-body"><h4>
-            <span class="lang-ar">التسليم خلال شهرين</span><span class="lang-en">Delivery within 2 months</span>
-          </h4><p>
-            <span class="lang-ar">مع دعم UAT ونشر الإنتاج</span><span class="lang-en">Including UAT support and go-live</span>
-          </p></div></div>
+      <div class="plan-rules reveal">
+        <article class="plan-rule">
+          <div class="k">01</div>
+          <strong>
+            <span class="lang-ar">تسليم أسبوعي</span>
+            <span class="lang-en">Weekly drop</span>
+          </strong>
+          <p>
+            <span class="lang-ar">كل أسبوع موديول واحد جاهز للتجربة على Staging: موبايل + لوحة الإدارة + API.</span>
+            <span class="lang-en">Each week one module is ready to try on staging: mobile, admin, and API together.</span>
+          </p>
+        </article>
+        <article class="plan-rule">
+          <div class="k">02</div>
+          <strong>
+            <span class="lang-ar">مراجعة ٣ أيام</span>
+            <span class="lang-en">3-day review</span>
+          </strong>
+          <p>
+            <span class="lang-ar">Crown تراجع الموديول خلال ٣ أيام عمل. الملاحظات لا توقف الموديول التالي إلا لو البيانات ناقصة.</span>
+            <span class="lang-en">Crown reviews each module within 3 working days. Notes do not stop the next module unless required data is missing.</span>
+          </p>
+        </article>
+        <article class="plan-rule">
+          <div class="k">03</div>
+          <strong>
+            <span class="lang-ar">اليوم الأول = الاعتماد</span>
+            <span class="lang-en">Day 1 = approval</span>
+          </strong>
+          <p>
+            <span class="lang-ar">العدّ يبدأ من أول يوم عمل بعد اعتماد العرض وتوفير حسابات الدخول والبيانات الأساسية.</span>
+            <span class="lang-en">The clock starts on the first working day after proposal approval and access to accounts and base data.</span>
+          </p>
+        </article>
+      </div>
+
+      <div class="plan">
+        <article class="drop reveal">
+          <div class="drop-when">
+            <span class="w">Week 1</span>
+            <span class="d">01–05</span>
+            <small>M1</small>
+          </div>
+          <div class="drop-main">
+            <div class="mod">Foundation</div>
+            <h3 class="display">
+              <span class="lang-ar">الأساس: حسابات، صلاحيات، وبيئة التجربة</span>
+              <span class="lang-en">Foundation: accounts, roles, and staging</span>
+            </h3>
+            <div class="drop-cols">
+              <div>
+                <h4><span class="lang-ar">ما يُسلَّم</span><span class="lang-en">Delivered</span></h4>
+                <ul class="mini-list">
+                  <li>Login · OTP · Roles: Owner / Tenant / Representative</li>
+                  <li>PostgreSQL · NestJS API · Next.js Admin · React Native shell</li>
+                  <li><span class="lang-ar">بيئة Staging جاهزة للدخول</span><span class="lang-en">Staging environment ready to log in</span></li>
+                </ul>
+              </div>
+              <div>
+                <h4><span class="lang-ar">مطلوب من Crown</span><span class="lang-en">Needed from Crown</span></h4>
+                <ul class="mini-list">
+                  <li><span class="lang-ar">اعتماد أنواع المستخدمين</span><span class="lang-en">Approve user types</span></li>
+                  <li><span class="lang-ar">الشعار والألوان</span><span class="lang-en">Logo and brand colors</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="drop reveal">
+          <div class="drop-when">
+            <span class="w">Week 2</span>
+            <span class="d">06–10</span>
+            <small>M2</small>
+          </div>
+          <div class="drop-main">
+            <div class="mod">Properties</div>
+            <h3 class="display">
+              <span class="lang-ar">العقارات والمشاريع والوحدات</span>
+              <span class="lang-en">Properties, projects, and units</span>
+            </h3>
+            <div class="drop-cols">
+              <div>
+                <h4><span class="lang-ar">ما يُسلَّم</span><span class="lang-en">Delivered</span></h4>
+                <ul class="mini-list">
+                  <li>Projects · Buildings · Units · Ownership</li>
+                  <li>My Properties · Property Details</li>
+                  <li><span class="lang-ar">إدارة العقارات من لوحة الإدارة</span><span class="lang-en">Property management in the admin portal</span></li>
+                </ul>
+              </div>
+              <div>
+                <h4><span class="lang-ar">مطلوب من Crown</span><span class="lang-en">Needed from Crown</span></h4>
+                <ul class="mini-list">
+                  <li><span class="lang-ar">بيانات مشروع ووحدات تجريبية</span><span class="lang-en">Sample projects and units</span></li>
+                  <li><span class="lang-ar">عينة عملاء وملاك</span><span class="lang-en">Sample customers and owners</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="drop reveal">
+          <div class="drop-when">
+            <span class="w">Week 3</span>
+            <span class="d">11–15</span>
+            <small>M3</small>
+          </div>
+          <div class="drop-main">
+            <div class="mod">Service Requests</div>
+            <h3 class="display">
+              <span class="lang-ar">طلبات الخدمة والمتابعة</span>
+              <span class="lang-en">Service requests and tracking</span>
+            </h3>
+            <div class="drop-cols">
+              <div>
+                <h4><span class="lang-ar">ما يُسلَّم</span><span class="lang-en">Delivered</span></h4>
+                <ul class="mini-list">
+                  <li>Category → Subcategory → Unit → Attachments</li>
+                  <li>Status tracking · Assignment · Call Center</li>
+                  <li><span class="lang-ar">إدارة الطلبات وSLA من اللوحة</span><span class="lang-en">Request and SLA management in admin</span></li>
+                </ul>
+              </div>
+              <div>
+                <h4><span class="lang-ar">مطلوب من Crown</span><span class="lang-en">Needed from Crown</span></h4>
+                <ul class="mini-list">
+                  <li><span class="lang-ar">التصنيفات والفئات الفرعية</span><span class="lang-en">Categories and subcategories</span></li>
+                  <li><span class="lang-ar">رقم Call Center ومسار التعيين</span><span class="lang-en">Call Center number and assignment path</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="drop reveal">
+          <div class="drop-when">
+            <span class="w">Week 4</span>
+            <span class="d">16–20</span>
+            <small>M4</small>
+          </div>
+          <div class="drop-main">
+            <div class="mod">Payments</div>
+            <h3 class="display">
+              <span class="lang-ar">المدفوعات وكشف الحساب</span>
+              <span class="lang-en">Payments and statement of account</span>
+            </h3>
+            <div class="drop-cols">
+              <div>
+                <h4><span class="lang-ar">ما يُسلَّم</span><span class="lang-en">Delivered</span></h4>
+                <ul class="mini-list">
+                  <li>Payment Link · Success / Failed / Cancelled</li>
+                  <li>Receipt · Statement of Account</li>
+                  <li><span class="lang-ar">Webhook حسب بوابة الدفع المتاحة</span><span class="lang-en">Webhook when the selected gateway supports it</span></li>
+                </ul>
+              </div>
+              <div>
+                <h4><span class="lang-ar">مطلوب من Crown</span><span class="lang-en">Needed from Crown</span></h4>
+                <ul class="mini-list">
+                  <li><span class="lang-ar">حساب بوابة الدفع</span><span class="lang-en">Payment gateway account</span></li>
+                  <li><span class="lang-ar">قواعد الرسوم</span><span class="lang-en">Fee rules</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="drop reveal">
+          <div class="drop-when">
+            <span class="w">Week 5</span>
+            <span class="d">21–25</span>
+            <small>M5</small>
+          </div>
+          <div class="drop-main">
+            <div class="mod">Documents &amp; NOC</div>
+            <h3 class="display">
+              <span class="lang-ar">المستندات وطلبات NOC</span>
+              <span class="lang-en">Documents and NOC requests</span>
+            </h3>
+            <div class="drop-cols">
+              <div>
+                <h4><span class="lang-ar">ما يُسلَّم</span><span class="lang-en">Delivered</span></h4>
+                <ul class="mini-list">
+                  <li><span class="lang-ar">طلب مستند → رسوم → دفع → تحميل آمن</span><span class="lang-en">Document request → fee → payment → secure download</span></li>
+                  <li>NOC type · review · issue · download</li>
+                  <li><span class="lang-ar">اعتماد وإصدار من لوحة الإدارة</span><span class="lang-en">Approval and issuance from admin</span></li>
+                </ul>
+              </div>
+              <div>
+                <h4><span class="lang-ar">مطلوب من Crown</span><span class="lang-en">Needed from Crown</span></h4>
+                <ul class="mini-list">
+                  <li><span class="lang-ar">أنواع المستندات وNOC</span><span class="lang-en">Document and NOC types</span></li>
+                  <li><span class="lang-ar">الرسوم والمستندات المطلوبة</span><span class="lang-en">Fees and required documents</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="drop reveal">
+          <div class="drop-when">
+            <span class="w">Week 6</span>
+            <span class="d">26–30</span>
+            <small>M6</small>
+          </div>
+          <div class="drop-main">
+            <div class="mod">Notifications &amp; Search</div>
+            <h3 class="display">
+              <span class="lang-ar">الإشعارات والبحث واللغتين</span>
+              <span class="lang-en">Notifications, search, and both languages</span>
+            </h3>
+            <div class="drop-cols">
+              <div>
+                <h4><span class="lang-ar">ما يُسلَّم</span><span class="lang-en">Delivered</span></h4>
+                <ul class="mini-list">
+                  <li>Push · In-App · Email</li>
+                  <li>Profile · Communication preferences</li>
+                  <li>Universal Search · Arabic + English RTL</li>
+                </ul>
+              </div>
+              <div>
+                <h4><span class="lang-ar">مطلوب من Crown</span><span class="lang-en">Needed from Crown</span></h4>
+                <ul class="mini-list">
+                  <li><span class="lang-ar">حساب البريد</span><span class="lang-en">Email account</span></li>
+                  <li><span class="lang-ar">سياسة الإشعارات</span><span class="lang-en">Notification policy</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="drop reveal">
+          <div class="drop-when">
+            <span class="w">Week 7</span>
+            <span class="d">31–35</span>
+            <small>M7</small>
+          </div>
+          <div class="drop-main">
+            <div class="mod">Community &amp; Admin</div>
+            <h3 class="display">
+              <span class="lang-ar">خدمات المجتمع وكتالوج الإدارة</span>
+              <span class="lang-en">Community services and admin catalog</span>
+            </h3>
+            <div class="drop-cols">
+              <div>
+                <h4><span class="lang-ar">ما يُسلَّم</span><span class="lang-en">Delivered</span></h4>
+                <ul class="mini-list">
+                  <li>Community Services · Home Services</li>
+                  <li>Configurable catalog · Workflow · Audit Log</li>
+                  <li><span class="lang-ar">ربط CRM حسب الـAPI المتاح</span><span class="lang-en">CRM link based on available APIs</span></li>
+                </ul>
+              </div>
+              <div>
+                <h4><span class="lang-ar">مطلوب من Crown</span><span class="lang-en">Needed from Crown</span></h4>
+                <ul class="mini-list">
+                  <li><span class="lang-ar">قائمة خدمات المجتمع والمنزل</span><span class="lang-en">Community and home-service list</span></li>
+                  <li><span class="lang-ar">وثائق API إن وُجدت</span><span class="lang-en">API documentation if available</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="drop final reveal">
+          <div class="drop-when">
+            <span class="w">Week 8</span>
+            <span class="d">36–40</span>
+            <small>Go-live</small>
+          </div>
+          <div class="drop-main">
+            <div class="mod">QA · UAT · Release</div>
+            <h3 class="display">
+              <span class="lang-ar">الاختبار والقبول وتسليم الإنتاج</span>
+              <span class="lang-en">Testing, acceptance, and production handover</span>
+            </h3>
+            <div class="drop-cols">
+              <div>
+                <h4><span class="lang-ar">ما يُسلَّم</span><span class="lang-en">Delivered</span></h4>
+                <ul class="mini-list">
+                  <li><span class="lang-ar">اختبار وظيفي وأمني وعلى الأجهزة</span><span class="lang-en">Functional, security, and device testing</span></li>
+                  <li>UAT · Production · iOS &amp; Android builds</li>
+                  <li><span class="lang-ar">بداية الصيانة المجانية ٦ أشهر من هذا التاريخ</span><span class="lang-en">6 months of free support starts on this date</span></li>
+                </ul>
+              </div>
+              <div>
+                <h4><span class="lang-ar">مطلوب من Crown</span><span class="lang-en">Needed from Crown</span></h4>
+                <ul class="mini-list">
+                  <li><span class="lang-ar">فريق UAT خلال هذا الأسبوع</span><span class="lang-en">UAT team available this week</span></li>
+                  <li>App Store · Google Play accounts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="plan-note reveal">
+        <h3 class="display">
+          <span class="lang-ar">بعد التسليم الأساسي — باتفاق منفصل</span>
+          <span class="lang-en">After base delivery — by separate agreement</span>
+        </h3>
+        <p>
+          <span class="lang-ar">هذه الوحدات ليست داخل الأسابيع الثمانية. تُجدول بعد التشغيل إذا اعتمدتها Crown.</span>
+          <span class="lang-en">These modules sit outside the eight weeks. They are scheduled after go-live if Crown approves them.</span>
+        </p>
+        <div class="later-chips">
+          <span class="chip ghost">Visitor Management</span>
+          <span class="chip ghost">Amenities Booking</span>
+          <span class="chip ghost">Digital Handover</span>
+          <span class="chip ghost">Construction Updates</span>
+          <span class="chip ghost">Virtual Customer Service</span>
+          <span class="chip ghost">UAE Pass</span>
+          <span class="chip ghost">WhatsApp</span>
         </div>
       </div>
     </div>
